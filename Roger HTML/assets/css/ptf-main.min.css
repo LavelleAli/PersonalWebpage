@@ -7079,8 +7079,9 @@ dl dd {
     /* width: 200px;
     height: 100px; */
     display: block;
-    max-width: none;
+    max-width: 18rem;
     max-height: 8.375rem;
+    transform: scale(1.5,1.5);
 }
 .ptf-navbar .ptf-navbar-logo:hover {
   text-decoration: none;
@@ -7663,7 +7664,7 @@ dl dd {
   flex-direction: column;
   background-color: var(--ptf-color-3);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -7677,6 +7678,7 @@ dl dd {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+
 .ptf-fullpage-slider .ptf-section__vertical-align {
   display: -webkit-box;
   display: -webkit-flex;

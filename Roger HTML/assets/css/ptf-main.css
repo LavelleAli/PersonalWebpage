@@ -9594,6 +9594,7 @@ dl dd
     -ms-flex-align: center;
             align-items: center;
 }
+
 @media (max-width: 1800px)
 {
     .ptf-navbar .ptf-navbar-socials
@@ -10381,14 +10382,12 @@ dl dd
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display:         flex;
-            flex-direction: column;
-
+    display: flex;
+    flex-direction: column;
     background-color: var(--ptf-color-3);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
